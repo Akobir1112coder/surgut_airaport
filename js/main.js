@@ -147,3 +147,23 @@ const barss = document.querySelector(`.barss`);
 barss.addEventListener(`click`,()=>{
   block.classList.remove(`blocked`)
 })
+
+
+
+
+ var swiper = new Swiper(".mySwiper22", {
+   cssMode: true,
+   loop:true,
+   pagination: {
+     el: ".swiper-pagination",
+   },
+   breakpoints: {
+     640: {
+       slidesPerView: 1,
+       spaceBetween: 20,
+     },
+     
+   },
+   mousewheel: true,
+   keyboard: true,
+ });
